@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.0'
+ruby '~> 2.7.8'   # allows 2.7.x (like 2.7.8)
 gem 'rails', '4.2.9'
 
 # for Heroku deployment - as described in Ap. A of ELLS book

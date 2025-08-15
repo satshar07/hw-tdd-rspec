@@ -1,0 +1,10 @@
+<h2>Movies With Same Director</h2>
+<p>Director: <%= @movie.director %></p>
+
+<ul>
+  <% @movies.each do |m| %>
+    <li><%= link_to m.title, movie_path(m) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Back to All Movies', movies_path %>
